@@ -1,0 +1,28 @@
+:root {
+    --primary-color: #006cfa;
+    --secondary-color: green;
+}
+
+[class*="col-"] {
+    background-color: var(--primary-color);
+    color: white;
+    border: 1px solid white;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.bg-green {
+    background-color: var(--secondary-color);
+}
+
+.marginBottom1 {
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 14px;
+}
+
+div {
+    font-size: 8px;
+}
