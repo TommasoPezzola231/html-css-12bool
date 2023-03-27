@@ -2,6 +2,56 @@
     text-align: center;
 }
 
+.textEnd {
+    text-align: end;
+}
+
+.alignItemsC {
+    align-items: center;
+}
+
 nav img {
     width: 100%;
+}
+
+/******Layout per mobile**********/
+@media screen and (min-width: 576px) {
+    .container {
+        max-width: 650px;
+    }
+}
+
+/******Layout per tablet**********/
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 850px;
+    }
+}
+
+
+/******Layout per tablet**********/
+@media screen and (min-width: 992px) {
+    .container {
+        max-width: 1100px;
+    }
+}
+
+/******Main*******/
+section {
+    padding-bottom: 4rem;
+}
+
+section img {
+    width: 100%;
+}
+
+/****footer*****/
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer p {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }

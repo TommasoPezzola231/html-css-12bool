@@ -222,7 +222,7 @@
     .col-md-offset-12 { margin-left: calc((100% / 12) * 12); }
 }
 
-/******Layout per tablet**********/
+/******Layout per desktop**********/
 @media screen and (min-width: 992px) {
     .col-lg-1 {
         flex-basis: calc((100% / 12) *  1); 
